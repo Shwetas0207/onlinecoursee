@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">RSWEBTEACH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="course.html">Course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Showcase Section -->
+<section class="showcase">
+    <div class="overlay"></div>
+    <div class="container">
+        <h2>"From Beginner to Pro: Your Coding Journey Starts Here"</h2>
+        <p>Welcome to RSWEBTEACH, where we turn passionate learners into skilled software developers...</p>
+        <a href="index.html" class="btn btn-light">Read More</a>
+    </div>
+</section>
+
+<br><br>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://via.placeholder.com/800x300?text=First+Slide" class="d-block w-100" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/800x300?text=Second+Slide" class="d-block w-100" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/800x300?text=Third+Slide" class="d-block w-100" alt="Third slide">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<br><br>
+
+<!-- Service Section -->
+<section class="service-section py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="title">Exclusive <span>Service</span></h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 text-center border-0 shadow">
+                    <div class="card-body">
+                        <div class="icon mb-3">
+                            <i class="fa-solid fa-laptop-code fa-3x"></i>
+                        </div>
+                        <h3 class="main-title">Full Stack Web Development</h3>
+                        <p class="description">Learn to build modern, responsive websites and web applications using the latest technologies.</p>
+                        <a href="#" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 text-center border-0 shadow">
+                    <div class="card-body">
+                        <div class="icon mb-3">
+                            <i class="fa-solid fa-mobile-alt fa-3x"></i>
+                        </div>
+                        <h3 class="main-title">Mobile App Development</h3>
+                        <p class="description">Master the art of mobile app development for both iOS and Android platforms.</p>
+                        <a href="#" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 text-center border-0 shadow">
+                    <div class="card-body">
+                        <div class="icon mb-3">
+                            <i class="fa-solid fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3 class="main-title">Data Science and Machine Learning</h3>
+                        <p class="description">Dive into the world of data science and machine learning using Python, R, TensorFlow, and more.</p>
+                        <a href="#" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="service.html" class="btn btn-service">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<section class="footer bg-custom text-white py-5">
+    <footer class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h4 class="mb-3">Service</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none mb-2 d-block">Marketing</a></li>
+                    <li><a href="#" class="text-white text-decoration-none mb-2 d-block">Software Development</a></li>
+                    <li><a href="#" class="text-white text-decoration-none mb-2 d-block">Software Testing</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h4 class="mb-3">Courses</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none mb-2 d-block">Python</a></li>
+                    <li><a href="#" class="text-white text-decoration-none mb-2 d-block">Java</a></li>
+                    <li><a href="#" class="text-white text-decoration-none mb-2 d-block">Dot Net</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h4 class="mb-3">Information</h4>
+                <ul class="list-unstyled">
+                    <li class="mb-2">8879809280</li>
+                    <li class="mb-2">info@rswebtech.com</li>
+                    <li>Mumbai, Maharashtra</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h4 class="mb-3">Contact</h4>
+                <div class="d-flex">
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p class="mb-0">&copy; 2024 RSWEBTEACH. All rights reserved.</p>
+        </div>
+    </footer>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

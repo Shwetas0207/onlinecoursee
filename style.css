@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+        /* Custom Styles */
+        .navbar-custom {
+            background-color: #66A5AD;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: white;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #ddd;
+        }
+        .showcase {
+            position: relative;
+            background: url('image/banner.webp') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .showcase .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .showcase .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+        .service-section {
+            padding: 60px 0;
+        }
+        .card {
+            border: none;
+        }
+        .card img{
+            height: 200px;
+            width: 70%;
+        }
+        .icon {
+            font-size: 2rem;
+        }
+        .btn-outline-primary {
+            border-color: #66A5AD;
+            /* color: #66A5AD; */
+        }
+        .btn-outline-primary:hover {
+            background-color: #66A5AD;
+            color: white;
+        }
+        
+.btn-service {
+    background-color: #66A5AD; 
+    border: none; 
+
+}
+
+        /* Custom Styles for Small Height Carousel */
+        .carousel-item img {
+            width: 100%;
+            height: 300px; /* Set a fixed height */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #66A5AD; /* Custom color for navigation arrows */
+        }
+ 
+
+ 
+/* About Section */
+/* Custom styles for the "About Us" section */
+section {
+    background-color: #f8f9fa; /* Light grey background for the section */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem; /* Larger font size for the main heading */
+    font-weight: bold; /* Make the heading bold */
+    color: #98e7d3; /* Darker color for the heading */
+}
+
+h3 {
+    font-size: 1.75rem; /* Adjust font size for subheading */
+    font-weight: 600; /* Semi-bold for the subheading */
+    color: #444; /* Slightly lighter color for the subheading */
+}
+
+p {
+    font-size: 1rem; 
+    line-height: 1.6; 
+    color: #09100e; 
+}
+
+.btn-primary {
+    background-color: #66A5AD; 
+    border: none; 
+}
+
+.btn-primary:hover {
+    background-color: #23737a; 
+}
+
+.mt-4 {
+    margin-top: 1.5rem; 
+}
+
+.mt-4 a {
+    color: #66A5AD; 
+    transition: color 0.3s; 
+}
+
+.mt-4 a:hover {
+    color: #4b8c92;
+}
+
+
+.img-fluid {
+    border-radius: 0.5rem; /* Rounded corners for the image */
+}
+
+.text-decoration-none {
+    text-decoration: none; /* Remove underline from social media links */
+}
+
+.social-icons i {
+    color: #265258; /* Custom color for social media icons */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.social-icons i:hover {
+    color: #4b8c92; /* Darker shade for hover effect */
+}
+
+@media (max-width: 767.98px) {
+    .text-center {
+        text-align: center; /* Center-align text for smaller screens */
+    }
+}
+
+/* Contact Section */
+        /* Custom Styles for Full-Width Contact Form */
+        .contact-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+            background-color: #f8f9fa; /* Light background color */
+        }
+        .contact-form-wrapper {
+            width: 100%;
+            max-width: 600px; /* Adjust size as needed */
+            background-color: #ffffff; /* White background for the form container */
+            padding: 2rem;
+            border-radius: 0.25rem;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Subtle shadow for better visibility */
+        }
+        .btn-custom {
+            background-color: #66A5AD; /* Custom background color for the button */
+            color: white;
+            border: none;
+            border-radius: 0.25rem;
+        }
+        .btn-custom:hover {
+            background-color: #4b8c92; /* Darker shade for hover effect */
+        }
+        /* Ensuring form elements span full width */
+        .form-control {
+            width: 100%;
+            margin-bottom: 20px;
+            height: 30px;
+        }
+
+
+/* Service Section Started */
+.service-section {
+    padding: 60px 0;
+}
+.service-section .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.service-section .title span {
+    color: #66A5AD; /* Custom color for emphasis */
+}
+.service-section .description {
+    font-size: 1.1rem;
+    color: #555;
+}
+.card {
+    border: 2px solid #333; /* Darker border color */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+.card-body {
+    padding: 20px;
+}
+.card-body .icon {
+    font-size: 3rem;
+    color: #66A5AD; /* Icon color */
+}
+.card-body .main-title {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+.card-body .description {
+    color: #666;
+}
+.card:hover {
+    border-color: #66A5AD; /* Change border color on hover */
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+.btn-outline-primary {
+    border-color: #66A5AD;
+    color: #66A5AD;
+}
+.btn-outline-primary:hover {
+    background-color: #66A5AD;
+    color: #fff;
+}
+/* Service Section Ended */
+
+/*   === Courses Section Styling Starts ===   */
+
+ .course {
+    margin-top: 20px;
+  }
+  .card {
+    margin: 10px;
+    width: 90%;
+  }
+
+
+.navbar-custom {
+    background-color: rgb(90, 144, 151);
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+.navbar-custom .nav-link:hover {
+    color: #56b9af;
+}
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Adjust the margin as needed */
+}
+
+
+.bg-custom {
+    background-color: #66A5AD;
+}
+
+/* Ensure links and text are white */
+.text-white {
+    color: #ffffff !important;
+}
+
+/* Remove default list styling */
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.text-white{
+    text-decoration: none;
+}
+/* Custom Footer Background Color */
+.bg-custom {
+background-color: #6bb9c3;
+}
+
+/* Ensure text is white */
+.text-white {
+color: #ffffff !important;
+}
+
+/* Remove default list styling */
+.list-unstyled {
+padding-left: 0;
+list-style: none;
+}
+
+/* Footer Section Styling */
+.footer {
+padding: 2rem 0; /* Adjust padding as needed */
+}
+
+.footer h4 {
+margin-bottom: 1rem; /* Adjust spacing below headings */
+}
+
+.footer ul li a {
+margin-bottom: 0.5rem; /* Adjust spacing between list items */
+}
+
+/* Ensure footer container is full-width */
+.footer .container {
+max-width: 1140px;
+margin: 0 auto;
+}
